@@ -2,7 +2,6 @@ def hanoi(num, start, goal, other):
     global k
     if num == 1:
         print(start,goal)
-        # print(k)
         return
 
     #1 n-1 개 start-> other
